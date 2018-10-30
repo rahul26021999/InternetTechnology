@@ -51,6 +51,20 @@
           <rtexprvalue>true</rtexprvalue>
       </attribute>
   </tag>
+  <tag>
+      <name>
+          reverse
+      </name>
+      <tag-class>
+          test.customtagreverse
+      </tag-class>
+      <body-content>scriptless</body-content>
+      <attribute>
+          <name>input</name>
+          <required>true</required>
+          <rtexprvalue>true</rtexprvalue>
+      </attribute>
+  </tag>
   <!-- A validator verifies that the tags are used correctly at JSP
           translation time. Validator entries look like this: 
        <validator>
