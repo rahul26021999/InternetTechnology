@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mybutton {
+    text-transform: uppercase;
+    box-sizing: unset;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    outline: none;
+    font-weight: 520;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0 5px #666;
+}
+
+.mybutton:hover {
+    box-shadow: 0 3px #666;
+    transform: translateY(0.5px);
+}
+
+.mybutton:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+}
+
+.submit {
+    background-color: #000a66;
+}
+
+.submit:active {
+    background-color: #000a66;
+}
+
+.submit:hover {
+    background-color: #000a55;
+}
+
+.reset {
+    background-color: #f54a1f;
+}
+
+.reset:active {
+    background-color: #f54a1f;
+}
+
+.reset:hover {
+    background-color: #da3c15;
+}
+
+#registration_form {
+    padding: 30px;
+    display: inline-block;
+    background: rgba(102, 102, 102, 0.11);
+}
+
+form h1 {
+    text-align: center;
+}
+
+label {
+    align-items: center;
+    display: inline-block;
+    width: 100px;
+    color: rgb(0, 0, 0);
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    width: 150px;
+    box-sizing: border-box;
+}
+
+#bubblesort,
+#mystack {
+    padding: 30px;
+    display: inline-block;
+    background: rgba(102, 102, 102, 0.11);
+}
+
+#bubblesort h6 {
+    margin: 0px;
+    text-align: center;
+    color: #da3c15;
+}
+
+#bubblesort #output,
+#mystack #output {
+    margin: 20px 0px 0px 0px;
+    color: green;
+    font-weight: bold;
+}

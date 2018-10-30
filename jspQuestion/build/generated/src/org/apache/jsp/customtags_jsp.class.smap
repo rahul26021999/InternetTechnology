@@ -1,0 +1,17 @@
+SMAP
+customtags_jsp.java
+JSP
+*S JSP
+*F
++ 0 customtags.jsp
+customtags.jsp
+*L
+5,24:59
+28:106,8
+29:114
+29:141,6
+29,3:117
+31:154,6
+31,2:122
+32,4:85
+*E

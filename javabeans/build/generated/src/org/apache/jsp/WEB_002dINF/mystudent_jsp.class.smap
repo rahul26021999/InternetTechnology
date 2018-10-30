@@ -1,0 +1,15 @@
+SMAP
+mystudent_jsp.java
+JSP
+*S JSP
+*F
++ 0 mystudent.jsp
+WEB-INF/mystudent.jsp
+*L
+5,10:44
+15:54,24
+15:67
+16,2:68,3
+18,2:74
+19,4:78
+*E
